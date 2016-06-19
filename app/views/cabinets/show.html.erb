@@ -1,0 +1,33 @@
+<h1><%= @cabinet.name %></h1>
+
+
+<h2>Foods</h2>
+<table>
+	<tr>
+		<th>Quantity</th>
+		<th>Name</th>
+		<th>Weight (g)</th>
+		<th colspan='2'></th>
+	</tr>
+	<% @foods.each do |food| %>
+		<tr>
+			<td><%= food.quantity %></td>
+			<td><%= food.name %></td>
+			<td><%= food.weight %></td>
+
+			<td>
+				<%= link_to "Edit", edit_food_path(food) %>
+			<td>
+				<%= link_to "Delete", food_path(food) + "?cabinet_id=" + params[:id], method: 
+					:delete, data: {confirm: 'Are you sure?'} %>
+			</td>
+		</tr>
+	<% end %>
+</table>
+
+<br>
+<h3>Add a Food</h3>
+<%= render 'foods/new' %>
+
+<br>
+<%= link_to "Back to Cabinets", cabinets_path %>

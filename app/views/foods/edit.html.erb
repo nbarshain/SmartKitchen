@@ -1,0 +1,27 @@
+<%= form_for @food do |f| %>
+	<table>
+		<tr>
+			<th></th>
+			<th>Old</th>
+			<th>New</th>
+		</tr>
+		<tr>
+			<td>Name:</td>
+			<td><%= @food.name %></td>
+			<td><%= f.text_field :name %></td>
+		</tr>
+		<tr>
+			<td>Quantity:</td>
+			<td><%= @food.quantity %></td>
+			<td><%= f.text_field :quantity %></td>
+		</tr>
+		<tr>
+			<td>Weight:</td>
+			<td><%= @food.weight %></td>
+			<td><%= f.text_field :weight %></td>
+		</tr>
+	</table>
+	<p>
+		<%= f.submit %>
+	</p>
+<% end %>

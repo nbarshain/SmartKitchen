@@ -1,0 +1,11 @@
+<%= form_for @cabinet do |f| %>
+	<p>
+		Old Name: <%= @cabinet.name %>
+	</p>
+	<p>
+		New Name: <%= f.text_field :name %>
+	</p>
+	<p>
+		<%= f.submit %>
+	</p>
+<% end %>

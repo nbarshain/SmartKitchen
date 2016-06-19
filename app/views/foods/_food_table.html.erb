@@ -1,0 +1,42 @@
+<table>
+	<tr>
+		<th>Quantity</th>
+		<th>Name</th>
+		<th>Weight (g)</th>
+		<th colspan='3'></th>
+	</tr>
+	<% @foods.each do |food| %>
+		<% if @food && @food == food %>
+			<tr>
+				<%= form_for(:food, url: '/foods/' + food.id.to_s, 
+					method: 'patch') do |f| %>
+				<td><%= f.text_field :quantity %></td>
+				<td><%= f.text_field :name %></td>
+				<td><%= f.text_field :weight %></td>
+
+				<td>
+				</td>
+				<td>
+					<%= link_to "Delete", food_path(food) + "?cabinet_id=" + food.cabinet.id.to_s, method: 
+						:delete, data: {confirm: 'Are you sure?'} %>
+				</td>
+				<td><%= f.submit %></td>
+				<% end %>
+			</tr>
+		<% else %>
+			<tr>
+				<td><%= food.quantity %></td>
+				<td><%= food.name %></td>
+				<td><%= food.weight %></td>
+
+				<td>
+					<%= link_to "Edit", edit_food_path(food) %>
+				</td>
+				<td>
+					<%= link_to "Delete", food_path(food) + "?cabinet_id=" + food.cabinet.id.to_s, method: 
+						:delete, data: {confirm: 'Are you sure?'} %>
+				</td>
+			</tr>
+		<% end %>
+	<% end %>
+</table>
