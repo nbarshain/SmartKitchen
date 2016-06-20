@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160619070906) do
+ActiveRecord::Schema.define(version: 20160620154106) do
 
   create_table "cabinets", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -19,7 +19,19 @@ ActiveRecord::Schema.define(version: 20160619070906) do
     t.string   "name"
   end
 
-# Could not dump table "foods" because of following NoMethodError
-#   undefined method `[]' for nil:NilClass
+  create_table "foods", force: :cascade do |t|
+    t.string  "name"
+    t.integer "quantity"
+    t.float   "weight"
+    t.integer "cabinet_id"
+  end
+
+  add_index "foods", ["cabinet_id"], name: "index_foods_on_cabinet_id"
+
+  create_table "kitchens", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
 end
