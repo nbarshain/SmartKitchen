@@ -20,8 +20,6 @@
 				<td>
 					<%= link_to "Delete", food_path(food) + "?cabinet_id=" + food.cabinet_id.to_s, method: 
 						:delete, data: {confirm: 'Are you sure?'} %>
-					<%= link_to "Delete", food_path(food), method: 
-						:delete, data: {confirm: 'Are you sure?'} %>	
 				</td>
 				<td><%= f.submit %></td>
 				<% end %>
