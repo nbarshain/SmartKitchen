@@ -7,7 +7,7 @@
 	</tr>
 	<% @foods.each do |food| %>
 		<% if @food && @food == food %>
-
+			<tr><%= food.inspect %></tr>
 			<tr>
 				<%= form_for(:food, url: '/foods/' + food.id.to_s, 
 					method: 'patch') do |f| %>

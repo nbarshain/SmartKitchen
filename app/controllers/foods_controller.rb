@@ -1,6 +1,9 @@
 class FoodsController < ApplicationController
 	def index
 		@foods = Food.all
+		if params[:edit] == true
+			@food = Food.find(params[:id])
+		end
 	end
 
 	def new
@@ -35,6 +38,7 @@ class FoodsController < ApplicationController
 
 		redirect_to cabinet_path(@cabinet)
 	end
+
 	private
 		def food_params
 			params.require(:food).permit(:name, :quantity, :weight)
