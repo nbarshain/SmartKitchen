@@ -36,7 +36,7 @@
 					<%= link_to "Edit", edit_food_path(food) %>
 				</td>
 				<td>
-					<%= link_to "Delete", food_path(food) + "?cabinet_id=" + food.cabinet.id.to_s, method: 
+					<%= link_to "Delete", food_path(food) + "?cabinet_id=" + food.cabinet_id.to_s, method: 
 						:delete, data: {confirm: 'Are you sure?'} %>
 				</td>
 			</tr>
