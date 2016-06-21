@@ -7,6 +7,7 @@
 	</tr>
 	<% @foods.each do |food| %>
 		<% if @food && @food == food %>
+
 			<tr>
 				<%= form_for(:food, url: '/foods/' + food.id.to_s, 
 					method: 'patch') do |f| %>
@@ -17,8 +18,10 @@
 				<td>
 				</td>
 				<td>
-					<%= link_to "Delete", food_path(food) + "?cabinet_id=" + food.cabinet.id.to_s, method: 
+					<%= link_to "Delete", food_path(food) + "?cabinet_id=" + food.cabinet_id.to_s, method: 
 						:delete, data: {confirm: 'Are you sure?'} %>
+					<%= link_to "Delete", food_path(food), method: 
+						:delete, data: {confirm: 'Are you sure?'} %>	
 				</td>
 				<td><%= f.submit %></td>
 				<% end %>
