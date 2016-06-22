@@ -33,7 +33,7 @@ class FoodsController < ApplicationController
 
 	def destroy
 
-		@cabinet = Cabinet.find(params[:cabinet_id]) | nil
+		@cabinet = Cabinet.find(params[:cabinet_id]) || nil
 
 		@food = Food.find(params[:id])
 		@food.destroy
