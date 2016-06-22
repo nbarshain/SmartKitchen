@@ -36,7 +36,11 @@ class FoodsController < ApplicationController
 		@food = Food.find(params[:id])
 		@food.destroy
 
-		redirect_to cabinet_path(@cabinet)
+		if @cabinet
+			redirect_to cabinet_path(@cabinet)
+		else
+			redirect_to cabinets_path
+		end
 	end
 
 	private
