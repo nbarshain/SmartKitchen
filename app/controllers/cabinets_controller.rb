@@ -18,8 +18,11 @@ class CabinetsController < ApplicationController
 
 	def create
 		@cabinet = Cabinet.new(cabinet_params)
-		@cabinet.save
-		redirect_to cabinets_path
+		if @cabinet.save
+			redirect_to cabinets_path
+		else
+			render 'show'
+		end
 	end
 
 	def update

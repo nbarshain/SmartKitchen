@@ -19,8 +19,8 @@ class FoodsController < ApplicationController
 	def create
 		@cabinet = Cabinet.find(params[:cabinet_id])
 		@food = @cabinet.foods.new(food_params)
+		
 		@food.save
-
 		redirect_to cabinet_path(@cabinet)
 	end
 
