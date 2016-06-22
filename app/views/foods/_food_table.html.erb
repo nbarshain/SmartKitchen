@@ -30,7 +30,9 @@
 				<td><%= food.quantity %></td>
 				<td><%= food.name %></td>
 				<td><%= food.weight %></td>
-				<td><%= food.cabinet.inspect %></td>
+				<% if food.cabinet %>
+					<td><%= food.cabinet.name %></td>
+				<% end %>
 
 				<td>
 					<%= link_to "Edit", edit_food_path(food) %>
