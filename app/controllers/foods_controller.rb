@@ -32,15 +32,14 @@ class FoodsController < ApplicationController
 	end
 
 	def destroy
-
-		@cabinet = Cabinet.find(params[:cabinet_id]) || nil
-
-		@food = Food.find(params[:id])
-		@food.destroy
-
-		if @cabinet
+		begin
+			@cabinet = Cabinet.find(params[:cabinet_id]) || nil
+			@food = Food.find(params[:id])
+			@food.destroy
 			redirect_to cabinet_path(@cabinet)
-		else
+		rescue 
+			@food = Food.find(params[:id])
+			@food.destroy
 			redirect_to cabinets_path
 		end
 	end
