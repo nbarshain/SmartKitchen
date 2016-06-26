@@ -12,6 +12,12 @@
 			<td>Weight (g): </td>
 			<td><%= f.text_field :weight %></td>
 		</tr>
+		<% if @list %>
+			<tr>
+				<td>List: </td>
+				<td><%= f.text_field :list, value: @list.name %></td>
+			</tr>
+		<% end %>	
 	</table>
 
 	<% if @food && @food.errors.any? %>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160621185200) do
+ActiveRecord::Schema.define(version: 20160626214017) do
 
   create_table "cabinets", force: :cascade do |t|
     t.datetime "created_at", null: false
@@ -27,14 +27,23 @@ ActiveRecord::Schema.define(version: 20160621185200) do
     t.integer "quantity"
     t.float   "weight"
     t.integer "cabinet_id"
+    t.integer "list_id"
   end
 
   add_index "foods", ["cabinet_id"], name: "index_foods_on_cabinet_id"
+  add_index "foods", ["list_id"], name: "index_foods_on_list_id"
 
   create_table "kitchens", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "lists", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string   "name"
+    t.string   "category"
   end
 
 end

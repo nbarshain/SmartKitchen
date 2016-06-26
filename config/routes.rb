@@ -29,6 +29,7 @@ Rails.application.routes.draw do
   # Example resource route with sub-resources:
   resources :cabinets
   resources :foods
+  resources :lists
     
   # Example resource route with more complex sub-resources:
   #   resources :products do
