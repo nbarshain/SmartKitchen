@@ -1,4 +1,7 @@
-<%= form_for(:food, url: ('/foods?cabinet_id=' + params[:id]), method: :post ) do |f| %>
+<h2>Add a Food</h2>
+
+<!%= form_for(:food, url: ('/foods?parent_id=' + params[:id]), method: :post ) do |f| %>
+<%= form_for(:food, url: {controller: 'foods', parent_id: params[:id], type: params[:type]}, method: :post ) do |f| %>
 	<table>
 		<tr>
 			<td>Name: </td>
@@ -13,10 +16,10 @@
 			<td><%= f.text_field :weight %></td>
 		</tr>
 		<% if @list %>
-			<tr>
+			<!-- <tr>
 				<td>List: </td>
 				<td><%= f.text_field :list, value: @list.name %></td>
-			</tr>
+			</tr> -->
 		<% end %>	
 	</table>
 

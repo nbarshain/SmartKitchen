@@ -17,18 +17,41 @@ class FoodsController < ApplicationController
 	end
 
 	def create
-		@cabinet = Cabinet.find(params[:cabinet_id])
-		@food = @cabinet.foods.new(food_params)
-		
-		@food.save
-		redirect_to cabinet_path(@cabinet)
+		if params[:type] == 'cabinet'
+			@cabinet = Cabinet.find(params[:parent_id])
+			@food = @cabinet.foods.new(food_params)
+			@food.save
+
+			redirect_to cabinet_path(@food.cabinet)
+		elsif params[:type] == 'list'
+			@list = List.find(params[:parent_id])
+			@food = @list.foods.new(food_params)
+			@food.save
+
+			redirect_to list_path(@food.list)
+		else 
+			redirect_to cabinets_path
+		end
 	end
 
 	def update
-		@food = Food.find(params[:id])
-		@food.update(food_params)
-		cabinet = @food.cabinet
+		@food = Food.find(params[:food_id])
+		# if @food.update(food_params)
+		
+		cabinet = Cabinet.find(params[:cabinet_id])
+		@food.update(cabinet: cabinet, list: nil)
+		# @food.cabinet = Cabinet.find(params[:cabinet_id])
+
 		redirect_to cabinet_path(cabinet)
+		# elsif @food.list
+		# 	redirect_to list_path(@food.list)
+		# else
+		# 	redirect_to cabinets_path
+		# end
+		# else 
+
+
+		
 	end
 
 	def destroy
@@ -44,8 +67,16 @@ class FoodsController < ApplicationController
 		end
 	end
 
+	def bought
+		@food = Food.find(params[:food_id])
+		@cabinets = Cabinet.all
+	end
+
 	private
 		def food_params
 			params.require(:food).permit(:name, :quantity, :weight)
+		end
+		def food_params_update
+			params.require(:food).permit(:cabinet)
 		end
 end
