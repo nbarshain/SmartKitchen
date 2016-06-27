@@ -1,0 +1,15 @@
+<h2><%= @food.name %></h2>
+
+<% @food.list = nil %>
+
+<%= form_for @food , url: { food_id: @food} do |f| %>
+	<p>Transfer to Cabinet:</p> 
+	<p>	
+		<% @cabinets.each do |cabinet| %>
+			<%= radio_button_tag(:cabinet_id, cabinet.id) %>
+			<%= label :cabinet_name, cabinet.name %>
+			<br>
+		<% end %>
+	</p>
+	<p><%= f.submit %></p>
+<% end %>

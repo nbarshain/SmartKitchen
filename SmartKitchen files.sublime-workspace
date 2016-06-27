@@ -1,0 +1,1388 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"quanity",
+				"quantity"
+			],
+			[
+				"cabin",
+				"cabinet_path"
+			],
+			[
+				"cab",
+				"cabinet_path"
+			],
+			[
+				"food",
+				"food_params"
+			],
+			[
+				"cabinet",
+				"cabinet_id"
+			],
+			[
+				"cabine",
+				"cabinet_path"
+			],
+			[
+				"ca",
+				"cabinet_id"
+			],
+			[
+				"cabinets",
+				"cabinets_path"
+			],
+			[
+				"destroy",
+				"destroy_all"
+			],
+			[
+				"ar",
+				"article"
+			],
+			[
+				"arti",
+				"article"
+			],
+			[
+				"com",
+				"comment"
+			],
+			[
+				"comm",
+				"commenter"
+			],
+			[
+				"all",
+				"all	all? { |e| .. }"
+			],
+			[
+				"art",
+				"article"
+			],
+			[
+				"article",
+				"article_path"
+			],
+			[
+				"artice",
+				"article_id"
+			],
+			[
+				"text",
+				"text_field"
+			],
+			[
+				"logg",
+				"logged_in"
+			],
+			[
+				"lo",
+				"logged"
+			],
+			[
+				"R",
+				"R"
+			],
+			[
+				"get",
+				"get_coord_list"
+			],
+			[
+				"find",
+				"findDistance"
+			],
+			[
+				"append",
+				"append_sorted"
+			],
+			[
+				"appe",
+				"append_sorted"
+			],
+			[
+				"app",
+				"append_sorted_list"
+			],
+			[
+				"appen",
+				"append_sorted_list"
+			],
+			[
+				"Rea",
+				"Reachable2"
+			],
+			[
+				"Visit",
+				"VisitedIn"
+			],
+			[
+				"visi",
+				"VisitedIn"
+			],
+			[
+				"rea",
+				"reach_list"
+			],
+			[
+				"Vi",
+				"VisitedIn"
+			],
+			[
+				"Ne",
+				"NextLevel"
+			],
+			[
+				"Visd",
+				"VisitedOut"
+			],
+			[
+				"reach",
+				"reach_list"
+			],
+			[
+				"Visi",
+				"VisitedOut"
+			],
+			[
+				"Vis",
+				"VisitedOut"
+			],
+			[
+				"Cur",
+				"CurCells"
+			],
+			[
+				"REa",
+				"ReachableOut"
+			],
+			[
+				"Reach",
+				"ReachableOut"
+			],
+			[
+				"Reac",
+				"ReachableOut"
+			],
+			[
+				"reac",
+				"reachable"
+			],
+			[
+				"Re",
+				"Reachable"
+			],
+			[
+				"Next",
+				"Next_cell"
+			],
+			[
+				"is",
+				"is_prime"
+			],
+			[
+				"Lef",
+				"Left2"
+			],
+			[
+				"Left",
+				"Left1"
+			],
+			[
+				"left",
+				"Left2"
+			],
+			[
+				"tr",
+				"tree_maker"
+			],
+			[
+				"N",
+				"NX"
+			],
+			[
+				"S",
+				"SX"
+			],
+			[
+				"cell",
+				"cells"
+			],
+			[
+				"dist",
+				"dist_helper"
+			],
+			[
+				"Tot",
+				"TotalRaw"
+			],
+			[
+				"roun",
+				"round4"
+			],
+			[
+				"pair",
+				"pair_OW"
+			],
+			[
+				"Pairs",
+				"Pairs2"
+			],
+			[
+				"pa",
+				"pair_OW"
+			],
+			[
+				"pat",
+				"path_helper"
+			],
+			[
+				"list",
+				"list_cells"
+			],
+			[
+				"path",
+				"path_tuple"
+			],
+			[
+				"li",
+				"list_cells"
+			],
+			[
+				"W",
+				"Weights"
+			],
+			[
+				"ope",
+				"open_finder"
+			],
+			[
+				"open",
+				"open_finder"
+			],
+			[
+				"in",
+				"in_lang"
+			],
+			[
+				"prim",
+				"prime_helper"
+			],
+			[
+				"gen",
+				"genXY"
+			],
+			[
+				"a",
+				"ackermann"
+			],
+			[
+				"Val",
+				"Val_Cons"
+			],
+			[
+				"true",
+				"true"
+			],
+			[
+				"Va",
+				"Val_Bool"
+			],
+			[
+				"mat",
+				"match	match"
+			],
+			[
+				"st",
+				"string_of_int"
+			],
+			[
+				"ma",
+				"match	match"
+			],
+			[
+				"b",
+				"boolean"
+			],
+			[
+				"mt",
+				"mtch"
+			],
+			[
+				"eval",
+				"eval"
+			],
+			[
+				"V",
+				"Val_Num"
+			],
+			[
+				"Valu",
+				"Val_Num"
+			],
+			[
+				"Vall",
+				"Val_Null"
+			],
+			[
+				"vall",
+				"Val_Null"
+			],
+			[
+				"val",
+				"Val_Null"
+			],
+			[
+				"Val_nu",
+				"Val_Num"
+			],
+			[
+				"pr",
+				"print_endline"
+			],
+			[
+				"parse_",
+				"parse_S"
+			],
+			[
+				"TO",
+				"Tok_END"
+			],
+			[
+				"Tok",
+				"Tok_END"
+			],
+			[
+				"par",
+				"parse_S"
+			],
+			[
+				"tok_",
+				"Tok_END"
+			],
+			[
+				"string_",
+				"string_of_value"
+			],
+			[
+				"strin",
+				"string_of_value"
+			],
+			[
+				"mak",
+				"make_state"
+			],
+			[
+				"fi",
+				"finals"
+			],
+			[
+				"make",
+				"make_nfa"
+			],
+			[
+				"final",
+				"finals_parser"
+			],
+			[
+				"fina",
+				"finals_parser"
+			],
+			[
+				"ta",
+				"transitions"
+			],
+			[
+				"tra",
+				"transitions"
+			],
+			[
+				"sta",
+				"state_finder"
+			],
+			[
+				"ecl",
+				"e_closure"
+			],
+			[
+				"e_cl",
+				"e_closure_helper"
+			],
+			[
+				"e_c",
+				"e_closure_helper"
+			],
+			[
+				"sr",
+				"string_of_int_list"
+			],
+			[
+				"new",
+				"new_nfa"
+			],
+			[
+				"te",
+				"test_accept"
+			],
+			[
+				"nfa",
+				"nfa"
+			],
+			[
+				"eps",
+				"epsilon_connector"
+			],
+			[
+				"epl",
+				"epsilon_connector"
+			],
+			[
+				"rege",
+				"regexp_helper"
+			],
+			[
+				"reg",
+				"regexp_helper"
+			],
+			[
+				"next",
+				"next"
+			],
+			[
+				"nex",
+				"next_state"
+			],
+			[
+				"string_to",
+				"string_to_nfa"
+			],
+			[
+				"regexp_to",
+				"regexp_to_string"
+			],
+			[
+				"re",
+				"regexp"
+			],
+			[
+				"chc",
+				"check_end"
+			],
+			[
+				"end",
+				"endstates"
+			],
+			[
+				"get_s",
+				"get_states"
+			],
+			[
+				"ls",
+				"ls"
+			],
+			[
+				"int_",
+				"int_mem"
+			],
+			[
+				"ed",
+				"edge"
+			],
+			[
+				"inn",
+				"int_insert"
+			],
+			[
+				"rec",
+				"rec"
+			],
+			[
+				"edg",
+				"edge_chk"
+			],
+			[
+				"In",
+				"IntLeaf"
+			],
+			[
+				"g",
+				"g"
+			],
+			[
+				"src",
+				"src_edges_helper"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views/cabinets/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 522,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/foods/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 45,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/foods/_food_table.html.erb",
+			"settings":
+			{
+				"buffer_size": 1009,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/cabinets/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 621,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/foods/_new.html.erb",
+			"settings":
+			{
+				"buffer_size": 378,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/foods/edit.html.erb",
+			"settings":
+			{
+				"buffer_size": 467,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/controllers/foods_controller.rb",
+			"settings":
+			{
+				"buffer_size": 792,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20160620153850_create_foods.rb",
+			"settings":
+			{
+				"buffer_size": 159,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1607,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20160619041316_create_cabinets.rb",
+			"settings":
+			{
+				"buffer_size": 165,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20160619184633_create_kitchens.rb",
+			"settings":
+			{
+				"buffer_size": 165,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/cabinets_controller.rb",
+			"settings":
+			{
+				"buffer_size": 679,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/schema.rb",
+			"settings":
+			{
+				"buffer_size": 1346,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1545,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Reticulin_Skeletal_Muscle_Fiber_Analysis_v2.00.ipm",
+		"/C/Sites/SmartKitchen/db/migrate/20160620154154_add_time_to_foods.rb",
+		"/C/Sites/SmartKitchen/db/migrate/20160620153850_create_foods.rb",
+		"/C/Sites/SmartKitchen/db/migrate/20160620154106_add_ref_to_foods.rb",
+		"/C/Sites/SmartKitchen/db/migrate/20160619041257_create_foods.rb",
+		"/C/Sites/SmartKitchen/db/development.sqlite3",
+		"/C/Sites/SmartKitchen/Gemfile",
+		"/C/Sites/SmartKitchen/db/migrate/20160619083801_initialize_foods.rb",
+		"/C/Sites/SmartKitchen/db/migrate/20160619041316_create_cabinets.rb",
+		"/C/Sites/SmartKitchen/db/migrate/20160619045239_add_nameto_foods.rb",
+		"/C/Sites/SmartKitchen/db/migrate/20160619045425_add_nameto_food_take2.rb",
+		"/C/Sites/SmartKitchen/db/migrate/20160619050900_add_name_to_cabinet.rb",
+		"/C/Sites/SmartKitchen/db/migrate/20160619065057_add_cabinet_to_foods.rb",
+		"/C/Sites/SmartKitchen/db/migrate/20160619065742_add_weight_to_food.rb",
+		"/C/Sites/SmartKitchen/db/migrate/20160619070906_add_quantity_to_food.rb",
+		"/C/Sites/SmartKitchen/app/views/cabinets/edit.html.erb",
+		"/C/Sites/SmartKitchen/app/views/cabinets/_new.html.erb",
+		"/C/Sites/SmartKitchen/app/models/food.rb",
+		"/C/Sites/SmartKitchen/db/schema.rb",
+		"/C/Sites/SmartKitchen/app/views/cabinets/index.html.erb",
+		"/C/Sites/SmartKitchen/app/views/foods/new.html.erb",
+		"/C/Sites/SmartKitchen/app/views/foods/index.html.erb",
+		"/C/Sites/SmartKitchen/app/views/cabinets/new.html.erb",
+		"/C/Sites/SmartKitchen/app/models/cabinet.rb",
+		"/C/Sites/blog2/app/controllers/articles_controller.rb",
+		"/C/Sites/SmartKitchen/db/migrate/20160619044725_add_nameto_foods.rb",
+		"/C/Sites/SmartKitchen/db/seeds.rb",
+		"/C/Sites/blog2/app/views/articles/new.html.erb",
+		"/C/Sites/blog2/app/views/articles/_form.html.erb",
+		"/C/Sites/blog2/app/views/articles/index.html.erb",
+		"/C/Sites/blog2/app/views/articles/show.html.erb",
+		"/C/Sites/blog2/app/views/articles/edit.html.erb",
+		"/C/Sites/SmartKitchen/app/controllers/food_controller.rb",
+		"/C/Sites/blog2/Gemfile",
+		"/C/Sites/blog2/config/routes.rb",
+		"/C/Sites/SmartKitchen/config/database.yml",
+		"/C/Program Files/PostgreSQL/9.5/data/pg_hba.conf",
+		"/C/Sites/SmartKitchen/config/routes.rb",
+		"/C/Sites/SmartKitchen/app/controllers/cabinet_controller.rb",
+		"/C/Sites/SmartKitchen/app/views/cabinet/index.html.erb",
+		"/C/Sites/blog2/config/database.yml",
+		"/C/Sites/blog2/app/controllers/welcome_controller.rb",
+		"/C/Sites/blog2/app/views/welcome/home.html.erb",
+		"/C/Sites/blog2/app/views/welcome/index.html.erb",
+		"/C/Sites/SmartFridge/app/views/welcome/index.html.erb",
+		"/C/Sites/SmartFridge/Gemfile",
+		"/C/Sites/SmartFridge/config/routes.rb",
+		"/C/Sites/SmartFridge/README.rdoc",
+		"/C/Sites/blog2/db/seeds.rb",
+		"/C/Sites/SmartFridge/db/seeds.rb",
+		"/C/Sites/blog/app/views/welcome/index.html.erb",
+		"/C/Sites/blog/app/views/articles/new.html.erb",
+		"/C/Sites/SmartFridge/app/controllers/welcome_controller.rb",
+		"/C/Sites/blog2/app/controllers/application_controller.rb",
+		"/C/Sites/blog2/README.rdoc",
+		"/C/Sites/blog2/app/assets/javascripts/application.js",
+		"/C/Sites/blog2/app/assets/stylesheets/application.css",
+		"/C/Sites/blog2/app/views/layouts/application.html.erb",
+		"/C/Sites/SmartFridge/app/views/layouts/application.html.erb",
+		"/C/RailsInstaller/Ruby2.2.0/bin/bundle",
+		"/C/Sites/SmartFridge/app/controllers/application_controller.rb",
+		"/C/Sites/blog2/app/views/comments/_form.html.erb",
+		"/C/Sites/blog2/app/views/comments/_comment.html.erb",
+		"/C/Sites/blog2/app/models/article.rb",
+		"/C/Sites/blog2/app/models/comment.rb",
+		"/C/Sites/blog2/app/controllers/comments_controller.rb",
+		"/C/Sites/sample_app_rails_4-master/Gemfile",
+		"/C/Sites/blog2/app/views/comments/form.html.erb",
+		"/C/Sites/blog2/app/views/comments/show.html.erb",
+		"/C/Sites/blog2/db/migrate/20160616160800_create_comments.rb",
+		"/C/Sites/blog2/db/migrate/20160614162626_create_articles.rb",
+		"/C/Sites/blog2/test/models/comment_test.rb",
+		"/C/Sites/blog2/db/schema.rb",
+		"/C/Users/Noah Bar-Shain/Desktop/sample_Rails_app/Rakefile",
+		"/C/Users/Noah Bar-Shain/Desktop/sample_Rails_app/db/seeds.rb",
+		"/C/Users/Noah Bar-Shain/Desktop/sample_Rails_app/config/environments/development.rb",
+		"/C/Users/Noah Bar-Shain/Desktop/sample_Rails_app/app/helpers/messages_helper.rb",
+		"/C/Users/Noah Bar-Shain/Desktop/sample_Rails_app/app/helpers/application_helper.rb",
+		"/C/Users/Noah Bar-Shain/Desktop/sample_Rails_app/app/controllers/messages_controller.rb",
+		"/C/Users/Noah Bar-Shain/Desktop/sample_Rails_app/app/views/messages/index.html.erb",
+		"/C/Sites/blog2/app/assets/stylesheets/articles.scss",
+		"/C/Sites/blog2/Gemfile.lock",
+		"/C/Sites/blog2/bin/bundle",
+		"/C/Users/Noah Bar-Shain/Documents/ImageIQ/Tube_Formation_Bitbucket/Tube_Formation_v1.2.ipm",
+		"/C/Sites/blog2/app/assets/javascripts/welcome.coffee",
+		"/C/Sites/blog2/app/assets/javascripts/articles.coffee",
+		"/C/Ruby22/lib/ruby/gems/2.2.0/gems/power_assert-0.2.2/Gemfile",
+		"/C/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/jbuilder-2.4.1/Gemfile",
+		"/C/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/jbuilder-2.4.1/gemfiles/rails_5_0.gemfile",
+		"/C/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/jbuilder-2.5.0/gemfiles/rails_4_1.gemfile",
+		"/C/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/jbuilder-2.5.0/gemfiles/rails_4_2.gemfile",
+		"/C/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/jbuilder-2.5.0/gemfiles/rails_5_0.gemfile",
+		"/C/Sites/blog/config/routes.rb",
+		"/C/Sites/blog/app/views/layouts/application.html.erb",
+		"/C/Sites/blog/app/controllers/welcome_controller.rb",
+		"/C/IPWIN70/Documents and Settings/Massive_Allograft_Healing/Edge_filter_mask.env",
+		"/C/IPWIN70/Documents and Settings/Massive_Allograft_Healing/Edge_filter_cal.env",
+		"/C/IPWIN70/Documents and Settings/Massive_Allograft_Healing/Edge_filter_aliz.env",
+		"/C/IPWIN70/Documents and Settings/Charlie/EDM_Cnt.env",
+		"/C/Users/Noah Bar-Shain/Documents/ImageIQ/Canine Femur/Canine Femur Demo Images/without_dilate.tif",
+		"/D/Nate_Library.BAS",
+		"/C/IPWIN70/Scripts/Tube_Formation_v1.1.ipm",
+		"/C/IPWIN70/Scripts/Midura_Alizarin_Calcein_Bone_Growth -- Noah.ipm",
+		"/C/IPWIN70/Scripts/Massive_Allograft_Healing.ipm",
+		"/C/IPWIN70/Scripts/Library.BAS",
+		"/D/Bone_Formation_052416.ipm",
+		"/C/IPWIN70/Documents and Settings/Tube Formation v1_1/Vessels5.env",
+		"/C/IPWIN70/Documents and Settings/Tube Formation v1_1/Nodes_3Branches.env",
+		"/C/IPWIN70/Documents and Settings/Tube Formation v1_1/Nodes_5Branches.env",
+		"/C/IPWIN70/Documents and Settings/Tube Formation v1_1/Nodes_4Branches.env",
+		"/C/IPWIN70/Documents and Settings/Tube Formation v1_1/Mask.env",
+		"/C/IPWIN70/Scripts/Tube_Formation_v1.1 - Edits.ipm",
+		"/C/IPWIN70/Documents and Settings/Tube Formation v1_1/Nodes.env",
+		"/C/Users/Noah Bar-Shain/Documents/Smart Fridge/LuaLoader/examples/DS18B20 One Wire Temperature server.lua",
+		"/C/Users/Noah Bar-Shain/Documents/Smart Fridge/LuaLoader/examples/gpio monitor.lua",
+		"/C/Users/Noah Bar-Shain/Box Sync/Classes Sophomore/CMSC216/barshain/project3/hashtester.c",
+		"/C/Users/Noah Bar-Shain/Box Sync/Classes Sophomore/CMSC216/barshain/project3/hashtable.c",
+		"/c/Users/Noah Bar-Shain/Desktop/blog/db/migrate/20160229231312_create_articles.rb",
+		"/C/Users/Noah Bar-Shain/Box Sync/2016 Challenges/ChallengeAnswers.c",
+		"/C/Users/Noah Bar-Shain/Box Sync/Classes Sophomore/CMSC216/barshain/creditcard/creditcard.c",
+		"/C/Users/Noah Bar-Shain/Desktop/blog/db/migrate/20160229231312_create_articles.rb",
+		"/c/Users/Noah Bar-Shain/Desktop/blog/Gemfile",
+		"/C/Users/Noah Bar-Shain/Desktop/blog/app/models/article.rb",
+		"/C/Users/Noah Bar-Shain/Desktop/blog/db/seeds.rb",
+		"/C/Users/Noah Bar-Shain/Desktop/blog/db/schema.rb",
+		"/C/Users/Noah Bar-Shain/Desktop/blog/app/views/welcome/index.html.erb",
+		"/C/Users/Noah Bar-Shain/Desktop/sample_Rails_app/config/routes.rb",
+		"/C/Users/Noah Bar-Shain/Desktop/sample_Rails_app/app/views/layouts/application.html.erb"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cabinets_path",
+			"id",
+			"end",
+			"gem",
+			"exec",
+			"index",
+			"|}",
+			"? ",
+			"false",
+			"any",
+			"%>",
+			"book1",
+			"dirsearch",
+			"dirsear",
+			"overlay",
+			"scale",
+			"filelist",
+			"dirsea",
+			"String",
+			"round",
+			"ipan",
+			"ean",
+			"mean",
+			"imbuf",
+			"iminfo",
+			"th_measure",
+			"outlines",
+			".rge",
+			"rge",
+			"function",
+			"ac",
+			"sendxl",
+			"d",
+			"type ",
+			"type d",
+			"xlla",
+			"prune",
+			"color",
+			"pseudo",
+			"color",
+			"pseudo",
+			"distance",
+			"distnace",
+			"while",
+			"th_measurements",
+			"count",
+			"image_or",
+			"or",
+			"image_or",
+			"image_sub",
+			"add",
+			"dirse",
+			"C:\\IPWIN70",
+			"dirsearch",
+			"dirseach",
+			"IPDOCINFO_PRIVATE",
+			"Function",
+			"instr",
+			"dirsea",
+			"dirsearch",
+			"put",
+			",\n",
+			"chk",
+			" \n",
+			"print_val",
+			"eval",
+			"env",
+			" \n",
+			"print",
+			"exception",
+			"parse",
+			"ast",
+			"make_nfa",
+			"next",
+			"chr",
+			"map",
+			"in",
+			"int_mem",
+			"map",
+			"invalid maze",
+			"path.name",
+			"puts",
+			"}\"\n",
+			"while",
+			"scan",
+			"~",
+			"parse",
+			"puts",
+			"if",
+			"xnext",
+			"puts",
+			"size",
+			"Element",
+			"++;\n",
+			"wait",
+			"fork",
+			"wait",
+			"fork",
+			"fflu",
+			"yyparse",
+			"Success",
+			"succ",
+			"Success",
+			"execut",
+			"*/\n",
+			"execut",
+			"execute",
+			"include",
+			"parser",
+			"include",
+			"remove",
+			"search",
+			"precur",
+			"**",
+			"free",
+			"get_val",
+			"key_search",
+			"precur",
+			"alloc",
+			"free",
+			");\n",
+			"malloc",
+			";\n",
+			"size",
+			"}\n",
+			"calc_mean",
+			"drop"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views/cabinets/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/foods/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/foods/_food_table.html.erb",
+					"settings":
+					{
+						"buffer_size": 1009,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								567,
+								567
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/cabinets/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								149,
+								149
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/foods/_new.html.erb",
+					"settings":
+					{
+						"buffer_size": 378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/foods/edit.html.erb",
+					"settings":
+					{
+						"buffer_size": 467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/controllers/foods_controller.rb",
+					"settings":
+					{
+						"buffer_size": 792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								291,
+								291
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "db/migrate/20160620153850_create_foods.rb",
+					"settings":
+					{
+						"buffer_size": 159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1254,
+								1254
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "db/migrate/20160619041316_create_cabinets.rb",
+					"settings":
+					{
+						"buffer_size": 165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "db/migrate/20160619184633_create_kitchens.rb",
+					"settings":
+					{
+						"buffer_size": 165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/controllers/cabinets_controller.rb",
+					"settings":
+					{
+						"buffer_size": 679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								369,
+								369
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "db/schema.rb",
+					"settings":
+					{
+						"buffer_size": 1346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1074,
+								1074
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 1545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								900,
+								900
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 228.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

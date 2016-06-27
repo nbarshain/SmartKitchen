@@ -1,0 +1,6 @@
+<h2>Create New List</h2>
+
+<%= form_for :list do |f| %>
+	<p>Name: <%= f.text_field :name %></p>
+	<p><%= f.submit %></p>
+<% end %>
