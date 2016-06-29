@@ -1,4 +1,4 @@
-<h2>Add a Food</h2>
+<h3>Add a Food</h3>
 
 <!%= form_for(:food, url: ('/foods?parent_id=' + params[:id]), method: :post ) do |f| %>
 <%= form_for(:food, url: {controller: 'foods', parent_id: params[:id], type: params[:type]}, method: :post ) do |f| %>

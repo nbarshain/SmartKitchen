@@ -1,7 +1,5 @@
 <h1><%= @cabinet.name %></h1>
 
-
-<h2>Foods</h2>
 <table>
 	<tr>
 		<th>Quantity</th>
@@ -26,6 +24,7 @@
 </table>
 
 <br>
+<% params[:type] = 'cabinet' %>
 <%= render 'foods/new' %>
 
 <br>
